@@ -2,16 +2,16 @@
     {
         "id":1,
         "name":"Jumanji",
-        "video":"../videos/video1.mp4"
+        "video":"./videos/video1.mp4"
     },
     {
         "id":2,
         "name":"video2",
-        "video":"../videos/video2.mp4"
+        "video":"./videos/video2.mp4"
     },
     {
         "id":3,
         "name":"video3",
-        "video":"../videos/video3.mp4"
+        "video":"./videos/video3.mp4"
     }
 ]
