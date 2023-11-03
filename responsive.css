@@ -1,0 +1,247 @@
+@media screen and (max-width:1200px){
+    
+}
+
+@media screen and (max-width:1190px) {
+
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:1060px) {
+
+    .nav_list {
+        gap: 15px;
+    }
+
+    .ring_bell {
+        margin-right: 14px;
+        margin-left: 29px;
+    }
+
+    @media screen and (max-width: 1050px) {
+        .footer_container {
+            padding-top: 80px;
+        }
+
+        .footer_list {
+            gap: 40px;
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+
+    .bars_icon {
+        display: block;
+    }
+
+    .nav_list  {
+
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: -1000px;
+        width: 100%;
+        height: 50vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
+
+
+    }
+
+    .header_icons_container {
+        background: #010000;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-bottom: 20px;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 50px;
+        z-index: 1;
+    }
+
+    .search_container input {
+        display: none;
+    }
+
+    .header_icons_container svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header_icons_container i {
+        font-size: 25px;
+    }
+
+    .nav_active {
+        top: 0;
+    }
+
+    .header_main_container h1 {
+        color: #FFF;
+        font-size: 25px;
+        font-weight: 250;
+
+    }
+
+
+
+    .last_icons {
+
+
+        margin-top: 26px;
+        padding-bottom: 85px;
+
+
+
+    }
+
+
+    .footer_list {
+
+        /* flex-direction: column;
+        align-items: center; */
+        gap: 30px;
+
+
+
+    }
+
+    .footer_container {
+
+        padding-top: 40px;
+
+
+    }
+   
+}
+@media screen and (max-width:750px){
+    .footer_container {
+
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+    
+}
+
+    @media screen and (max-width:700px) {
+
+        .header_icons_container {
+            background: #010000;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding-bottom: 20px;
+            justify-content: center;
+            padding-top: 20px;
+            gap: 25px;
+            z-index: 1;
+        }
+
+
+        .text {
+            font-size: 1.2rem;
+            font-weight: 300;
+            width: 400px;
+            height: 100px;
+
+        }
+
+
+    }
+
+   
+    
+    @media screen and (max-width:540px){
+        main h2 {
+            font-size: 1.6rem;
+        
+        }
+        .sec_head img{
+            width: 170px;
+        }
+    }
+    @media screen and (max-width:440px){
+        .footer_list{
+            flex-direction: column;
+        }
+        .header_icons_container svg{
+            width: 20px;
+            height: 20px;
+        }
+        .header_icons_container i{
+            font-size: 1.8rem;
+        }
+
+    }
+    @media screen and (max-width:430px) {
+       
+        .text {
+            font-size: 1.1rem;
+            font-weight: 2500;
+            width: 300px;
+            height: 50px;
+
+        }
+
+        /* .header_shadow {
+            background-color: rgba(0, 0, 0, 0.7);
+            height: 80%;
+          
+        }
+
+        .first_img{
+
+            height: 80%;
+        } */
+
+
+    }
+
+
+
+    @media screen and (max-width:400px){
+
+        .grid_cards_container {
+            
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        
+        }
+        
+        .grid_card {
+            min-width: 300px;
+        }
+
+        .imdb_container {
+            
+            gap: 10px;
+        }
+        
+        .minutes_container {
+            
+            gap: 5px;
+        }
+
+        .subtitles_container {
+           
+            gap: 5px;
+        
+        }
+        
+        .rating_container {
+           
+            gap: 5px;
+        
+        
+        }
+
+    }

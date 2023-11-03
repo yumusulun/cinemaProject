@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="login_container">
+        <h1>SIGN UP</h1>
+
+        <form onsubmit="regSubmit(event)">
+            <div class="email_container">
+                <label for="reg_name">Name</label>
+                <input required id="reg_name" class="reg_name" type="text">
+            </div>
+            <div class="email_container">
+                <label for="reg_email">E-mail</label>
+                <input required id="reg_email" class="reg_email" type="email">
+            </div>
+
+            <div class="email_container">
+                <label for="">Password</label>
+                <input required class="reg_password" type="password">
+            </div>
+         
+            <div class="email_container">
+                <label for="">Re-type password</label>
+                <input required class="reg_retypePassword" type="password">
+            </div>
+
+            <p class="reg_err"></p>
+
+           
+                
+
+                <button class="signUp_btn">Sign up</button>
+           
+           
+
+        </form>
+    </div>
+
+
+
+    <script src="data.js"></script>
+    <script src="signup.js"></script>
+
+</body>
+</html>
